@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Attendance Chatbox</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="chat-container">
+    <div class="chat-header">📝 Attendance Chatbox</div>
+
+    <div class="messages" id="messages">
+      <div class="message bot">
+        Hello! 👋  
+        <br>I can mark your attendance.
+        <br>Type <b>present</b>, <b>absent</b>, or <b>status</b>.
+      </div>
+    </div>
+
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Type present / absent / status" />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
